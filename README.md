@@ -41,12 +41,15 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/dianhaoli/asl_fingerspell">asl_fingerspell</a></h4>
-      <p>An ASL finger sign classifier that reads a photo of a hand and predicts which letter of the sign language alphabet it is. Compares a custom CNN against MobileNetV2 transfer learning — the from-scratch CNN wins at 92.72% test accuracy.</p>
+      <td width="50%" valign="top">
+      <h4><a href="https://github.com/dianhaoli/tau-forge">tau-forge</a></h4>
+      <p>Reinforcement learning for multi-turn tool-using agents. Built a customer-service environment over τ²-bench's retail database, with a rule-based simulated customer and a reward based on the final database state. Trained Qwen3-4B with GRPO on 1.4k synthetic conversations only, then evaluated on the real τ²-bench retail benchmark: pass^1 rose from 53.1% to 61.2% (+8.1 pts, p ≈ 0.001), and pass^4, the share of tasks solved on all 4 runs, rose from 29.0% to 36.8%.</p>
       <p>
-        <img src="https://img.shields.io/badge/TensorFlow-0D1117?style=flat-square&logo=tensorflow&logoColor=FF6F00" />
-        <img src="https://img.shields.io/badge/Keras-0D1117?style=flat-square&logo=keras&logoColor=D00000" />
+        <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" />
+        <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
+        <img src="https://img.shields.io/badge/TRL-0D1117?style=flat-square&logo=huggingface&logoColor=FFD21E" />
+        <img src="https://img.shields.io/badge/vLLM-0D1117?style=flat-square&logo=lightning&logoColor=30A2FF" />
+        <img src="https://img.shields.io/badge/H100-0D1117?style=flat-square&logo=nvidia&logoColor=76B900" />
       </p>
     </td>
     <td width="50%" valign="top">
