@@ -49,7 +49,7 @@
         <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
         <img src="https://img.shields.io/badge/TRL-0D1117?style=flat-square&logo=huggingface&logoColor=FFD21E" />
         <img src="https://img.shields.io/badge/vLLM-0D1117?style=flat-square&logo=lightning&logoColor=30A2FF" />
-like       </p>
+       </p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/dianhaoli/compost-bin">compost-bin</a></h4>
