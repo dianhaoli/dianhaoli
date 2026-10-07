@@ -43,14 +43,13 @@
   <tr>
       <td width="50%" valign="top">
       <h4><a href="https://github.com/dianhaoli/tau-forge">tau-forge</a></h4>
-      <p>Reinforcement learning for multi-turn tool-using agents. Built a customer-service environment over τ²-bench's retail database, with a rule-based simulated customer and a reward based on the final database state. Trained Qwen3-4B with GRPO on 1.4k synthetic conversations only, then evaluated on the real τ²-bench retail benchmark: pass^1 rose from 53.1% to 61.2% (+8.1 pts, p ≈ 0.001), and pass^4, the share of tasks solved on all 4 runs, rose from 29.0% to 36.8%.</p>
+      <p>Built an RL environment from scratch for multi-turn tool use, with synthetic customer service tasks and a rule-based simulated customer grader for fast training. Increased Qwen3-4B's τ²-bench (from Sierra) pass@1 from 53.1% to 61.2%.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" />
         <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
         <img src="https://img.shields.io/badge/TRL-0D1117?style=flat-square&logo=huggingface&logoColor=FFD21E" />
         <img src="https://img.shields.io/badge/vLLM-0D1117?style=flat-square&logo=lightning&logoColor=30A2FF" />
-        <img src="https://img.shields.io/badge/H100-0D1117?style=flat-square&logo=nvidia&logoColor=76B900" />
-      </p>
+like       </p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/dianhaoli/compost-bin">compost-bin</a></h4>
