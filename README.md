@@ -43,7 +43,7 @@
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/dianhaoli/shifthunt">shifthunt</a></h4>
-      <p>An agent eval for interpretability auditing, inspired by SHIFT (Marks et al., Sparse Feature Circuits), I create an eval/RL env to automate the SHIFT process. Agents get four linear probes on Gemma-2-2B and a Gemma Scope SAE. They must work out which probes secretly rely on a spurious cue, name each cue, and pick SAE latents whose ablation removes it while keeping the real signal. Claude Opus 4.8 fully solves 30% of episodes. </p>
+      <p>An agent eval for interpretability auditing, inspired by SHIFT (Marks et al., Sparse Feature Circuits), I create an eval/RL env to automate the SHIFT process. Agents get four linear probes on Gemma-2-2B and a Gemma Scope SAE. They must work out which probes secretly rely on a spurious cue, name each cue, and pick SAE latents whose ablation removes it while keeping the real signal. Claude Opus 4.8 fully solves 30% of episodes.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" />
         <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
@@ -51,10 +51,7 @@
         <img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" />
       </p>
     </td>
-    <td width="50%" valign="top"></td>
-  </tr>
-  <tr>
-      <td width="50%" valign="top">
+    <td width="50%" valign="top">
       <h4><a href="https://github.com/dianhaoli/tau-forge">tau-forge</a></h4>
       <p>Built an RL environment from scratch for multi-turn tool use, with synthetic customer service tasks and a rule-based simulated customer grader for fast training. Increased Qwen3-4B's τ²-bench (from Sierra) pass@1 from 53.1% to 61.2%.</p>
       <p>
@@ -62,9 +59,11 @@
         <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
         <img src="https://img.shields.io/badge/TRL-0D1117?style=flat-square&logo=huggingface&logoColor=FFD21E" />
         <img src="https://img.shields.io/badge/vLLM-0D1117?style=flat-square&logo=lightning&logoColor=30A2FF" />
-       </p>
+      </p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <h4><a href="https://github.com/dianhaoli/compost-bin">compost-bin</a></h4>
       <p>IoT fill-level monitoring for commercial compost bins, built for CompostNow with Duke Pratt. Ultrasonic ranging on an ESP32 streams filtered telemetry to Firebase and a live web dashboard.</p>
       <p>
@@ -74,5 +73,4 @@
       </p>
     </td>
   </tr>
-  
 </table>
