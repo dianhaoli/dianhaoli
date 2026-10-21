@@ -21,27 +21,6 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/dianhaoli/openvocabperson">openvocabperson</a></h4>
-      <p>AI analysis and tracking of people in images using local computer vision models — YOLO detection routed into Qwen2.5-VL, with OSNet Re-ID embeddings in pgvector so the same person is recognized across separate uploads. Search by natural language or by image.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" />
-        <img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688" />
-        <img src="https://img.shields.io/badge/pgvector-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1" />
-        <img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/dianhaoli/gpt">gpt</a></h4>
-      <p>A ~25M-parameter transformer capable of generating children's stories, trained from scratch on TinyStories. Custom byte-level BPE tokenizer, RoPE, SwiGLU, and KV-cache decoding — no scaffolding, just the model and the training loop.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" />
-        <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h4><a href="https://github.com/dianhaoli/shifthunt">shifthunt</a></h4>
       <p>An agent eval for interpretability auditing, inspired by SHIFT (Marks et al., Sparse Feature Circuits), I create an eval/RL env to automate the SHIFT process. Agents get four linear probes on Gemma-2-2B and a Gemma Scope SAE. They must work out which probes secretly rely on a spurious cue, name each cue, and pick SAE latents whose ablation removes it while keeping the real signal. Claude Opus 4.8 fully solves 30% of episodes.</p>
       <p>
@@ -59,6 +38,27 @@
         <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
         <img src="https://img.shields.io/badge/TRL-0D1117?style=flat-square&logo=huggingface&logoColor=FFD21E" />
         <img src="https://img.shields.io/badge/vLLM-0D1117?style=flat-square&logo=lightning&logoColor=30A2FF" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dianhaoli/openvocabperson">openvocabperson</a></h4>
+      <p>AI analysis and tracking of people in images using local computer vision models — YOLO detection routed into Qwen2.5-VL, with OSNet Re-ID embeddings in pgvector so the same person is recognized across separate uploads. Search by natural language or by image.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" />
+        <img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688" />
+        <img src="https://img.shields.io/badge/pgvector-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1" />
+        <img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dianhaoli/gpt">gpt</a></h4>
+      <p>A ~25M-parameter transformer capable of generating children's stories, trained from scratch on TinyStories. Custom byte-level BPE tokenizer, RoPE, SwiGLU, and KV-cache decoding — no scaffolding, just the model and the training loop.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" />
+        <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
       </p>
     </td>
   </tr>
