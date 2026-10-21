@@ -61,4 +61,17 @@
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dianhaoli/shifthunt">shifthunt</a></h4>
+      <p>An agent eval for interpretability auditing, built on SHIFT (Marks et al., Sparse Feature Circuits). Agents get four linear probes on Gemma-2-2B and a Gemma Scope SAE. They must work out which probes secretly rely on a spurious cue, name each cue, and pick SAE latents whose ablation removes it while keeping the real signal. Claude Opus 4.8 fully solves 30% of episodes. </p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" />
+        <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
+        <img src="https://img.shields.io/badge/Gemma%20Scope-0D1117?style=flat-square&logo=huggingface&logoColor=FFD21E" />
+        <img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" />
+      </p>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
 </table>
